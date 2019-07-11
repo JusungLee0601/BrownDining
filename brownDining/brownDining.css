@@ -1,0 +1,189 @@
+/*GENERAL*/
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+/*FONTS*/ 
+@font-face {
+	font-family: northCliff;
+	src: url("Fonts/NORTHCLIFF.otf")
+}
+
+@font-face {
+	font-family: montserratB;
+	src: url("Fonts/Montserrat/Montserrat-Bold.ttf")
+}
+
+/*HOMEPAGE*/
+
+	/*Top bar*/
+header {
+	height: 10vh;
+}
+
+h1 {
+	font-family: montserratB;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+	padding: 10px;
+	height: 100%;
+	position:relative;
+    z-index:3;
+	box-shadow: 0px 3px 2px -3px rgba(100, 100, 100, 0.49);*/
+}
+
+	/*Tiles*/
+
+		/*sizing + spacing for divs*/
+#mainpage {
+	position: relative;
+	height: 90vh;
+}
+
+#mainpage > a {
+	font-family: montserratB;
+	color: white;
+	text-decoration: none;
+
+	position: relative;
+	float: left;
+	height: 50%;
+	width: 33.33333%;
+}
+
+#mainpage div {
+	height: 100%;
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	text-align: center;
+
+	display: table;
+}
+
+		/*content inside divs*/
+.hallname {
+	font-size: 16px;
+	color: white;
+
+	height: 25%;
+	display: table-cell;
+	vertical-align: middle;
+
+  	opacity: 1;
+  	z-index: 2;
+
+  	transition-property: opacity;
+	transition-duration: .25s;
+}
+
+a:hover .hallname {
+	opacity: 0;
+}
+
+.quickinfo {
+	font-size: 15px;
+	color: white;
+
+	position: absolute;
+	margin: auto;
+	top: 15%;
+	left: 15%;
+	height: 70%;
+	width: 70%;
+
+	border: 8px solid white;
+	padding: 4px;
+
+	text-align: center;
+	vertical-align: middle;
+
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-duration: .5s;
+}
+
+a:hover .quickinfo {
+	opacity: 1;
+}
+
+#mainpage img {
+	height: 100%;
+	width: 100%;
+
+	transition-property: filter;
+	transition-duration: .5s;
+}
+
+a:hover img {
+	filter: brightness(50%);
+}
+
+
+
+/*#rlink {
+	background-image: url("Images/blueberrypie.jpg");
+}
+
+#alink {
+	background-image: url("Images/pizza.jpg");
+}
+
+#jlink {
+	background-image: url("Images/burger.jpg");
+}
+
+#vlink {
+	background-image: url("Images/burritobowl.jpg");
+}
+
+#ilink {
+	background-image: url("Images/avocadotoast.jpg");
+}
+
+#blink {
+	background-image: url("Images/muffin.jpg");
+}*/
+
+/*SECTIONS*/
+.hall {
+	position: relative;
+	opacity: .65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#ratty {
+	min-height: 100%;
+	background-image: url(gorgonzolacheese.jpg);
+}
+
+#andrews {
+	min-height: 100%;
+	background-image: url(pizza.jpg);
+}
+
+#jos {
+	min-height: 100%;
+	background-image: url(burger.jpg);
+}
+
+#blueroom {
+	min-height: 100%;
+	background-image: url(muffin.jpg);
+}
+

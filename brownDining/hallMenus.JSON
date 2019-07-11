@@ -1,0 +1,95 @@
+[
+	{	
+		"id": "rattymenu",
+		"quickid": "rattyquickinfo",
+		"timeid": "rattytime",
+		"navid": "rattynav",
+		"weekdays": [
+			{ 
+				"dayName": "sunday",
+				"menues": [
+					{
+						"menuName": "menuOne",
+						"time": ["07:00", "11:00"],
+						"star": ["BaconS", "Omelettes"],
+						"normal": ["Rice"]
+					},
+					{"menuName": "menuTwo",
+						"time": ["11:00", "15:00"],
+						"star": ["Mac and CheeseS"],
+						"normal": ["Rice", "Soup", "Potate Cheep"]	
+					},
+					{"menuName": "menuThree",
+						"time": ["15:00", "19:00"],
+						"star": ["Blueberry PieS", "Ribs"],
+						"normal": ["MORE POTAT CHEEP"]	
+					}
+				]
+			},
+			{ 
+				"dayName": "monday",
+				"menues": [
+					{
+						"menuName": "menuOne",
+						"time": ["07:00", "11:00"],
+						"star": ["Bacon", "Omelettes"],
+						"normal": ["Rice"]
+					},
+					{"menuName": "menuTwo",
+						"time": ["11:00", "15:00"],
+						"star": ["Mac and Cheese"],
+						"normal": ["Rice", "Soup", "Potate Cheep"]	
+					},
+					{"menuName": "menuThree",
+						"time": ["15:00", "19:00"],
+						"star": ["Blueberry Pie", "Ribs"],
+						"normal": ["MORE POTAT CHEEP"]	
+					}
+				]
+			},
+			{ 
+				"dayName": "tuesday",
+				"menues": [
+					{
+						"menuName": "menuOne",
+						"time": ["07:00", "11:00"],
+						"star": ["BaconT", "Omelettes"],
+						"normal": ["Rice"]
+					},
+					{"menuName": "menuTwo",
+						"time": ["11:00", "15:00"],
+						"star": ["Mac and CheeseT"],
+						"normal": ["Rice", "Soup", "Potate Cheep"]	
+					},
+					{"menuName": "menuThree",
+						"time": ["15:00", "19:00"],
+						"star": ["Blueberry PieT", "Ribs"],
+						"normal": ["MORE POTAT CHEEP"]	
+					}
+				]
+			},
+			{
+
+				"dayName": "wednesday",
+				"menues": [
+					{
+						"menuName": "menuOne",
+						"time": ["07:00", "11:00"],
+						"star": ["BaconW", "Omelettes"],
+						"normal": ["Rice"]
+					},
+					{"menuName": "menuTwo",
+						"time": ["11:00", "15:00"],
+						"star": ["Mac and CheeseW"],
+						"normal": ["Rice", "Soup", "Potate Cheep"]	
+					},
+					{"menuName": "menuThree",
+						"time": ["15:00", "19:00"],
+						"star": ["Blueberry PieW", "Ribs"],
+						"normal": ["MORE POTAT CHEEP"]	
+					}
+				]
+			}
+		]	
+	}
+]
